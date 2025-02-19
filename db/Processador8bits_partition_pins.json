@@ -1,0 +1,257 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pc_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "alu_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "r0_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "r1_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "r2_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "r3_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
