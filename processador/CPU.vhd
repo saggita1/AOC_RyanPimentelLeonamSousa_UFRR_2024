@@ -1,3 +1,4 @@
+-- PROCESSADOR UNICICLO DE 8 BITS
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
@@ -85,7 +86,7 @@ begin
             we      => we_reg,
             raddr1  => raddr1,
             raddr2  => raddr2,
-            waddr   => rd,  -- escreve no registrador destino
+            waddr   => rd,
             wdata   => wdata,
             rdata1  => reg_data1,
             rdata2  => reg_data2,
@@ -95,7 +96,7 @@ begin
             r3_out  => r3_out
         );
     
-    -- Instanciação do MuxULA para selecionar os operandos da ULA
+    -- Instanciação do MuxULA
     MuxULA_inst: entity work.MuxULA
         port map(
             opcode    => opcode,
@@ -117,7 +118,7 @@ begin
         );
     alu_out <= alu_result;
     
-    -- Seleção do dado a ser escrito (wdata) e do endereço da RAM
+    -- Lógica para seleção do dado a ser escrito (wdata) e do endereço da RAM
     wdata <= alu_result when opcode = "000" or opcode = "001" or opcode = "100" or opcode = "101" else
              ram_dout when opcode = "010" else
              (others => '0');
