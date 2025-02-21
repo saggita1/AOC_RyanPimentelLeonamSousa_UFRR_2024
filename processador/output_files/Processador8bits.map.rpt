@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Processador8bits
-Fri Feb 21 11:18:18 2025
+Fri Feb 21 13:08:28 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Feb 21 11:18:18 2025       ;
+; Analysis & Synthesis Status     ; Successful - Fri Feb 21 13:08:28 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; Processador8bits                            ;
 ; Top-level Entity Name           ; CPU                                         ;
@@ -1845,7 +1845,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -1855,7 +1855,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Feb 21 11:17:59 2025
+    Info: Processing started: Fri Feb 21 13:08:16 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Processador8bits -c Processador8bits
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -1863,8 +1863,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
     Info (12022): Found design unit 1: ULA-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd Line: 15
     Info (12023): Found entity 1: ULA File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file rom.vhd
-    Info (12022): Found design unit 1: ROM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 14
-    Info (12023): Found entity 1: ROM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 7
+    Info (12022): Found design unit 1: ROM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 13
+    Info (12023): Found entity 1: ROM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file registerbank.vhd
     Info (12022): Found design unit 1: RegisterBank-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd Line: 24
     Info (12023): Found entity 1: RegisterBank File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd Line: 7
@@ -1908,9 +1908,9 @@ Info (21057): Implemented 1023 device resources after synthesis - the final reso
     Info (21059): Implemented 64 output pins
     Info (21061): Implemented 958 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4885 megabytes
-    Info: Processing ended: Fri Feb 21 11:18:18 2025
-    Info: Elapsed time: 00:00:19
+    Info: Peak virtual memory: 4893 megabytes
+    Info: Processing ended: Fri Feb 21 13:08:28 2025
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:25
 
 

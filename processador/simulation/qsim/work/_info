@@ -10,7 +10,7 @@ z2
 cModel Technology
 dE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/simulation/qsim
 Ecpu
-Z0 w1740153629
+Z0 w1740157939
 Z1 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 ^K2eeK[IVbX]]MLcdOEI91
 Z2 DPx8 cyclonev 19 cyclonev_components 0 22 GFL[QAd@dAZF:`jjOGn9>2
 Z3 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
@@ -20,7 +20,7 @@ Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
-!i122 4
+!i122 28
 Z10 dE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim
 Z11 8Processador8bits.vho
 Z12 FProcessador8bits.vho
@@ -30,9 +30,9 @@ V6ozYRzLB4]Io[fil`^L[;0
 !s100 gEekbOBen@jl9aYS8FaYm1
 Z13 OV;C;2020.1;71
 32
-Z14 !s110 1740153630
+Z14 !s110 1740157940
 !i10b 1
-Z15 !s108 1740153629.000000
+Z15 !s108 1740157939.000000
 Z16 !s90 -work|work|Processador8bits.vho|
 Z17 !s107 Processador8bits.vho|
 !i113 1
@@ -49,7 +49,7 @@ R7
 R8
 R9
 DEx4 work 3 cpu 0 22 6ozYRzLB4]Io[fil`^L[;0
-!i122 4
+!i122 28
 l1992
 L53 19176
 VOlWicLzGdQB[n^?XG5c3k1
@@ -65,13 +65,13 @@ R17
 R18
 R19
 Ecpu_vhd_vec_tst
-Z20 w1740153627
+Z20 w1740157938
 R7
 R8
-!i122 5
+!i122 29
 R10
-Z21 8Waveform1.vwf.vht
-Z22 FWaveform1.vwf.vht
+Z21 8Waveform2.vwf.vht
+Z22 FWaveform2.vwf.vht
 l0
 L32 1
 VWH5;nYiB6@7gZK<F=?2KH2
@@ -80,28 +80,28 @@ R13
 32
 R14
 !i10b 1
-Z23 !s108 1740153630.000000
-Z24 !s90 -work|work|Waveform1.vwf.vht|
-Z25 !s107 Waveform1.vwf.vht|
+Z23 !s108 1740157940.000000
+Z24 !s90 -work|work|Waveform2.vwf.vht|
+!s107 Waveform2.vwf.vht|
 !i113 1
 R18
 R19
 Acpu_arch
 R7
 R8
-Z26 DEx4 work 15 cpu_vhd_vec_tst 0 22 WH5;nYiB6@7gZK<F=?2KH2
-!i122 5
+Z25 DEx4 work 15 cpu_vhd_vec_tst 0 22 WH5;nYiB6@7gZK<F=?2KH2
+!i122 29
 l59
 L34 54
-VBOOo==WdaU>1Y9VdI0[IZ0
-!s100 z[LRelaJD43:P<Hid_2gV2
+V^4f^N]T^4EH;Gh514K^An2
+!s100 <j64F=zk33CO`1K[n4omT1
 R13
 32
 R14
 !i10b 1
 R23
 R24
-R25
+Z26 !s107 Waveform2.vwf.vht|
 !i113 1
 R18
 R19

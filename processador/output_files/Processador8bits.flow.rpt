@@ -1,5 +1,5 @@
 Flow report for Processador8bits
-Fri Feb 21 12:00:29 2025
+Fri Feb 21 13:12:19 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Feb 21 12:00:29 2025       ;
+; Flow Status                     ; Successful - Fri Feb 21 13:12:19 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; Processador8bits                            ;
 ; Top-level Entity Name           ; CPU                                         ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/21/2025 11:18:01 ;
+; Start date & time ; 02/21/2025 13:08:17 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Processador8bits    ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+------------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value    ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 185410936471705.174015108003980        ; --               ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 185410936471705.174015769600584        ; --               ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --               ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --               ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --               ; CPU         ; Top        ;
@@ -95,15 +95,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4885 MB             ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4893 MB             ; 00:00:25                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4720 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:32                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:33                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -120,6 +121,7 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -127,12 +129,13 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Processador8bits -c Processador8bits
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/Waveform.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/simulation/qsim/Waveform.vwf.vht
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform2.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform2.vwf.vht
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
 
 

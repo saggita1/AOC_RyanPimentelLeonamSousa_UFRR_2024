@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source="E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf" --testbench_file="E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source="E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform2.vwf" --testbench_file="E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform2.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,8 +26,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Fri Feb 21 12:00:27 2025
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
+    Info: Processing started: Fri Feb 21 13:12:17 2025
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform2.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform2.vwf.vht
 Info (119006): Selected device 5CGXFC7C7F23C8 for design "Processador8bits"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -56,14 +56,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Fri Feb 21 12:00:28 2025
+    Info: Processing started: Fri Feb 21 13:12:18 2025
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
 Info (119006): Selected device 5CGXFC7C7F23C8 for design "Processador8bits"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file Processador8bits.vho in folder "E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4727 megabytes
-    Info: Processing ended: Fri Feb 21 12:00:29 2025
+    Info: Processing ended: Fri Feb 21 13:12:19 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -81,13 +81,14 @@ E:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vsim -c -do Processador8bits.do
 
 Reading pref.tcl
 
+
 # 2020.1
 
 # do Processador8bits.do
-
 # ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:00:29 on Feb 21,2025
+# Start time: 13:12:19 on Feb 21,2025
 # vcom -work work Processador8bits.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -102,22 +103,22 @@ Reading pref.tcl
 # -- Compiling entity CPU
 # -- Compiling architecture structure of CPU
 
-# End time: 12:00:30 on Feb 21,2025, Elapsed time: 0:00:01
+# End time: 13:12:20 on Feb 21,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:00:30 on Feb 21,2025
-# vcom -work work Waveform1.vwf.vht 
+# Start time: 13:12:20 on Feb 21,2025
+# vcom -work work Waveform2.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity CPU_vhd_vec_tst
 # -- Compiling architecture CPU_arch of CPU_vhd_vec_tst
-# End time: 12:00:30 on Feb 21,2025, Elapsed time: 0:00:00
+# End time: 13:12:20 on Feb 21,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.CPU_vhd_vec_tst 
-# Start time: 12:00:30 on Feb 21,2025
+# Start time: 13:12:20 on Feb 21,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -139,20 +140,20 @@ Reading pref.tcl
 # Expect performance to be adversely affected.
 # after#34
 
-# End time: 12:00:31 on Feb 21,2025, Elapsed time: 0:00:01
+# End time: 13:12:21 on Feb 21,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf...
+Reading E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform2.vwf...
 
 Reading E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Processador8bits.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Processador8bits_20250221120031.sim.vwf
+Writing the resulting VWF to E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Processador8bits_20250221131222.sim.vwf
 
 Finished VCD to VWF conversion.
 

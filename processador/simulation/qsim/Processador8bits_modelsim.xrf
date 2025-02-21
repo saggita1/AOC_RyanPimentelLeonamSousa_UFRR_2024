@@ -9,6 +9,7 @@ source_file = 1, E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/De
 source_file = 1, E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd
 source_file = 1, E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd
 source_file = 1, E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform.vwf
+source_file = 1, E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf
 source_file = 1, e:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, e:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, e:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
