@@ -1,3 +1,4 @@
+-- PROGRAM COUNTER
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -21,16 +22,18 @@ begin
         variable imm_ext : unsigned(7 downto 0);
     begin
         if rising_edge(clk) then
-            -- Por padrão, o próximo PC é o atual + 1
+            -- Incremento padrão: PC + 1
             pc_v := unsigned(pc_reg) + 1;
-            -- Expande o imediato de 3 bits para 8 bits (concatenando 5 zeros à esquerda)
-            imm_ext := unsigned("00000" & imm);
+            imm_ext := unsigned("00000" & imm);  -- Expande o imediato para 8 bits
             if jump = '1' then
-                pc_v := unsigned(alu_result);  -- Se jump, PC recebe o valor da ULA
+                -- Salto incondicional: PC recebe o valor da ULA (destino do salto)
+                pc_v := unsigned(alu_result);
             elsif branch = '1' then
-                -- Se branch e a ULA indicar zero, PC = PC + 1 + imediato
+                -- BEQ: compara o valor do registrador (Rdest) com R0
+                -- Se a subtração (Rdest - R0) resultar em zero, a condição é satisfeita.
+                -- Nesse caso, o PC recebe o imediato estendido (valor absoluto) como novo endereço.
                 if alu_result = "00000000" then
-                    pc_v := unsigned(pc_reg) + imm_ext + 1;
+                    pc_v := imm_ext;
                 end if;
             end if;
             pc_reg <= std_logic_vector(pc_v);
