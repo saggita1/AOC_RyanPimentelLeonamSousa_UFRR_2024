@@ -1,3 +1,4 @@
+-- UNIDADE DE CONTROLE
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -16,28 +17,28 @@ architecture Behavioral of ControlUnit is
 begin
     process(opcode_3b)
     begin
+        -- Valores padrão
         we_reg <= '0';
         we_mem <= '0';
         branch <= '0';
         jump   <= '0';
-        alu_op <= opcode_3b;
-        
+        alu_op <= opcode_3b;  -- Operação padrão definida pelo opcode
         case opcode_3b is
-            when "000" => -- ADD
+            when "000" =>  -- ADD
                 we_reg <= '1';
-            when "001" => -- SUB
+            when "001" =>  -- SUB
                 we_reg <= '1';
-            when "010" => -- LW
+            when "010" =>  -- LW
                 we_reg <= '1';
-            when "011" => -- SW
+            when "011" =>  -- SW
                 we_mem <= '1';
-            when "100" => -- ADDI
+            when "100" =>  -- ADDI
                 we_reg <= '1';
-            when "101" => -- LI
+            when "101" =>  -- LI
                 we_reg <= '1';
-            when "110" => -- BEQ
+            when "110" =>  -- BEQ
                 branch <= '1';
-            when "111" => -- JUMP
+            when "111" =>  -- JUMP
                 jump <= '1';
             when others =>
                 null;
