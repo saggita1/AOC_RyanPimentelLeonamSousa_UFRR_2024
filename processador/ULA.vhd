@@ -1,3 +1,4 @@
+-- UNIDADE LÓGICA E ARITMÉTICA
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
@@ -20,15 +21,15 @@ begin
                 result <= a + b;
             when "001" =>  -- SUB
                 result <= a - b;
-            when "010" =>  -- LW: passa apenas b
+            when "010" =>  -- LW: passa somente o imediato (destinado a formar o endereço)
                 result <= b;
-            when "011" =>  -- SW: passa apenas b
+            when "011" =>  -- SW: idem LW
                 result <= b;
             when "100" =>  -- ADDI
                 result <= a + b;
             when "101" =>  -- LI
                 result <= b;
-            when "110" =>  -- BEQ
+            when "110" =>  -- BEQ: realiza subtração (Rdest - R0)
                 result <= a - b;
             when "111" =>  -- JUMP
                 result <= b;
