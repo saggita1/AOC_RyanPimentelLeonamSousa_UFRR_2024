@@ -34,6 +34,7 @@ architecture Behavioral of ROM is
         4  => "00001110",  -- ADD R1, R3  (opcode=000, rd=01, rs=11)
         5  => "00101100",  -- SUB R1, R2  (opcode=001, rd=01, rs=10)
         6  => "10010001",  -- ADDI R2, 1  (opcode=100, rd=10, imm=001)
+        -- instrução BEQ compara R2 com R0, na primeira vez vai ser falso, na segunda verdadeiro(3 == 3)
         7  => "11010000",  -- BEQ R2, 000 (opcode=110, rd=10, imm=000)
         8  => "10100011",  -- LI R0, 3    (opcode=101, rd=00, imm=011)
         9  => "11100111",  -- JUMP 00111  (opcode=111, jump addr=7)

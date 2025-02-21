@@ -120,6 +120,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "ram_addr_out[5]",
+					"strict" : false
+				},
+				{
 					"name" : "r0_out[0]",
 					"strict" : false
 				},

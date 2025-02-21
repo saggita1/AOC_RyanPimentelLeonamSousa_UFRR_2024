@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Processador8bits
-Tue Feb 18 23:50:38 2025
+Fri Feb 21 11:18:18 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -45,13 +45,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Feb 18 23:50:38 2025       ;
+; Analysis & Synthesis Status     ; Successful - Fri Feb 21 11:18:18 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; Processador8bits                            ;
 ; Top-level Entity Name           ; CPU                                         ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 296                                         ;
+; Total registers                 ; 552                                         ;
 ; Total pins                      ; 65                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -160,36 +160,36 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 8           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
-;     Processor 5            ;   0.1%      ;
-;     Processor 6            ;   0.1%      ;
-;     Processor 7            ;   0.1%      ;
-;     Processor 8            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                               ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                        ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
-; ULA.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ULA.vhd            ;         ;
-; ROM.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ROM.vhd            ;         ;
-; RegisterBank.vhd                 ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RegisterBank.vhd   ;         ;
-; RAM.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RAM.vhd            ;         ;
-; ProgramCounter.vhd               ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ProgramCounter.vhd ;         ;
-; MuxULA.vhd                       ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/MuxULA.vhd         ;         ;
-; Decodificador.vhd                ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/Decodificador.vhd  ;         ;
-; CPU.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd            ;         ;
-; ControlUnit.vhd                  ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ControlUnit.vhd    ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                           ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                    ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
+; ULA.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd            ;         ;
+; ROM.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd            ;         ;
+; RegisterBank.vhd                 ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd   ;         ;
+; RAM.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd            ;         ;
+; ProgramCounter.vhd               ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd ;         ;
+; MuxULA.vhd                       ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd         ;         ;
+; Decodificador.vhd                ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd  ;         ;
+; CPU.vhd                          ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd            ;         ;
+; ControlUnit.vhd                  ; yes             ; User VHDL File  ; E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd    ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -197,25 +197,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 258       ;
+; Estimate of Logic utilization (ALMs needed) ; 436       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 303       ;
+; Combinational ALUT usage for logic          ; 414       ;
 ;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 122       ;
-;     -- 5 input functions                    ; 84        ;
-;     -- 4 input functions                    ; 32        ;
-;     -- <=3 input functions                  ; 65        ;
+;     -- 6 input functions                    ; 257       ;
+;     -- 5 input functions                    ; 43        ;
+;     -- 4 input functions                    ; 25        ;
+;     -- <=3 input functions                  ; 89        ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 296       ;
+; Dedicated logic registers                   ; 552       ;
 ;                                             ;           ;
 ; I/O pins                                    ; 65        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 296       ;
-; Total fan-out                               ; 2470      ;
-; Average fan-out                             ; 3.39      ;
+; Maximum fan-out                             ; 552       ;
+; Total fan-out                               ; 3827      ;
+; Average fan-out                             ; 3.49      ;
 +---------------------------------------------+-----------+
 
 
@@ -224,12 +224,11 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+----------------+--------------+
 ; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Entity Name    ; Library Name ;
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+----------------+--------------+
-; |CPU                           ; 303 (21)            ; 296 (0)                   ; 0                 ; 0          ; 65   ; 0            ; |CPU                           ; CPU            ; work         ;
-;    |ControlUnit:CU_inst|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ControlUnit:CU_inst       ; ControlUnit    ; work         ;
+; |CPU                           ; 414 (20)            ; 552 (0)                   ; 0                 ; 0          ; 65   ; 0            ; |CPU                           ; CPU            ; work         ;
 ;    |MuxULA:MuxULA_inst|        ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|MuxULA:MuxULA_inst        ; MuxULA         ; work         ;
-;    |ProgramCounter:PC_inst|    ; 31 (31)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ProgramCounter:PC_inst    ; ProgramCounter ; work         ;
-;    |RAM:RAM_inst|              ; 172 (172)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |CPU|RAM:RAM_inst              ; RAM            ; work         ;
-;    |ROM:ROM_inst|              ; 18 (18)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ROM:ROM_inst              ; ROM            ; work         ;
+;    |ProgramCounter:PC_inst|    ; 22 (22)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ProgramCounter:PC_inst    ; ProgramCounter ; work         ;
+;    |RAM:RAM_inst|              ; 296 (296)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |CPU|RAM:RAM_inst              ; RAM            ; work         ;
+;    |ROM:ROM_inst|              ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ROM:ROM_inst              ; ROM            ; work         ;
 ;    |RegisterBank:RegBank_inst| ; 12 (12)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |CPU|RegisterBank:RegBank_inst ; RegisterBank   ; work         ;
 ;    |ULA:ALU_inst|              ; 27 (27)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |CPU|ULA:ALU_inst              ; ULA            ; work         ;
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+----------------+--------------+
@@ -1777,263 +1776,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; RAM:RAM_inst|memory~2000                 ; Stuck at GND due to stuck port clock_enable ;
 ; RAM:RAM_inst|memory~2032                 ; Stuck at GND due to stuck port clock_enable ;
 ; RAM:RAM_inst|memory~2064                 ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~273                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~401                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~305                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~433                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~337                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~465                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~369                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~497                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~281                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~409                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~313                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~441                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~345                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~473                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~377                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~505                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~289                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~417                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~321                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~449                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~353                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~481                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~385                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~513                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~297                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~329                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~361                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~393                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~425                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~457                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~489                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~521                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~274                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~282                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~290                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~298                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~306                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~314                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~322                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~330                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~338                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~346                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~354                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~362                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~370                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~378                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~386                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~394                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~402                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~434                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~466                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~498                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~410                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~442                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~474                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~506                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~418                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~450                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~482                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~514                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~426                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~458                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~490                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~522                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~275                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~283                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~291                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~299                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~403                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~411                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~419                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~427                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~307                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~315                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~323                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~331                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~435                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~443                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~451                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~459                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~339                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~347                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~355                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~363                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~467                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~475                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~483                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~491                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~371                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~499                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~379                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~507                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~387                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~515                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~395                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~523                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~276                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~404                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~308                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~436                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~340                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~468                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~372                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~500                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~284                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~412                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~316                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~444                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~348                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~476                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~380                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~508                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~292                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~420                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~324                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~452                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~356                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~484                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~388                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~516                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~300                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~332                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~364                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~396                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~428                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~460                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~492                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~524                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~277                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~285                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~293                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~301                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~309                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~317                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~325                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~333                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~341                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~349                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~357                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~365                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~373                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~381                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~389                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~397                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~405                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~437                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~469                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~501                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~413                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~445                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~477                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~509                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~421                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~453                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~485                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~517                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~429                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~461                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~493                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~525                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~278                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~286                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~294                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~302                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~406                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~414                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~422                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~430                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~310                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~318                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~326                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~334                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~438                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~446                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~454                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~462                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~342                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~350                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~358                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~366                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~470                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~478                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~486                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~494                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~374                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~502                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~382                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~510                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~390                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~518                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~398                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~526                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~279                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~407                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~311                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~439                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~343                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~471                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~375                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~503                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~287                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~415                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~319                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~447                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~351                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~479                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~383                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~511                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~295                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~423                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~327                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~455                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~359                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~487                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~391                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~519                  ; Lost fanout                                 ;
-; RAM:RAM_inst|memory~303                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~335                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~367                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~399                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~431                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~463                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~495                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~527                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~280                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~312                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~344                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~376                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~288                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~320                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~352                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~384                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~296                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~328                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~360                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~392                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~304                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~336                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~368                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~400                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~408                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~416                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~424                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~432                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~440                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~448                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~456                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~464                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~472                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~480                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~488                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~496                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~504                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~512                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~520                  ; Stuck at GND due to stuck port clock_enable ;
-; RAM:RAM_inst|memory~528                  ; Stuck at GND due to stuck port clock_enable ;
-; Total Number of Removed Registers = 1792 ;                                             ;
+; Total Number of Removed Registers = 1536 ;                                             ;
 +------------------------------------------+---------------------------------------------+
 
 
@@ -2042,12 +1785,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 296   ;
+; Total registers                              ; 552   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 288   ;
+; Number of registers using Clock Enable       ; 544   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -2057,14 +1800,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |CPU|ProgramCounter:PC_inst|pc_reg[1] ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |CPU|ProgramCounter:PC_inst|pc_reg[6] ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |CPU|ProgramCounter:PC_inst|pc_reg[1] ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPU|RegisterBank:RegBank_inst|Mux3   ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPU|wdata[7]                         ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 16 LEs               ; 24 LEs                 ; No         ; |CPU|MuxULA:MuxULA_inst|Mux6          ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 16 LEs               ; 24 LEs                 ; No         ; |CPU|ULA:ALU_inst|Mux5                ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 9 LEs                ; 0 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux8          ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 10 LEs               ; 2 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux11         ;
-; 10:1               ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux13         ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux8          ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux11         ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; No         ; |CPU|MuxULA:MuxULA_inst|Mux13         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 
 
@@ -2073,27 +1817,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 296                         ;
-;     ENA               ; 288                         ;
+; arriav_ff             ; 552                         ;
+;     ENA               ; 544                         ;
 ;     plain             ; 8                           ;
-; arriav_lcell_comb     ; 307                         ;
-;     arith             ; 34                          ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 13                          ;
-;         4 data inputs ; 1                           ;
-;         5 data inputs ; 18                          ;
-;     normal            ; 273                         ;
+; arriav_lcell_comb     ; 418                         ;
+;     arith             ; 25                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 8                           ;
+;         5 data inputs ; 16                          ;
+;     normal            ; 393                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 3                           ;
-;         2 data inputs ; 9                           ;
-;         3 data inputs ; 41                          ;
-;         4 data inputs ; 31                          ;
-;         5 data inputs ; 66                          ;
-;         6 data inputs ; 122                         ;
+;         2 data inputs ; 75                          ;
+;         3 data inputs ; 5                           ;
+;         4 data inputs ; 25                          ;
+;         5 data inputs ; 27                          ;
+;         6 data inputs ; 257                         ;
 ; boundary_port         ; 65                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 10.30                       ;
-; Average LUT depth     ; 6.53                        ;
+; Max LUT depth         ; 9.00                        ;
+; Average LUT depth     ; 5.78                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2102,7 +1845,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -2112,64 +1855,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Feb 18 23:50:20 2025
+    Info: Processing started: Fri Feb 21 11:17:59 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Processador8bits -c Processador8bits
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
-    Info (12022): Found design unit 1: ULA-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ULA.vhd Line: 14
-    Info (12023): Found entity 1: ULA File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ULA.vhd Line: 6
+    Info (12022): Found design unit 1: ULA-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd Line: 15
+    Info (12023): Found entity 1: ULA File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file rom.vhd
-    Info (12022): Found design unit 1: ROM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ROM.vhd Line: 13
-    Info (12023): Found entity 1: ROM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ROM.vhd Line: 6
+    Info (12022): Found design unit 1: ROM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 14
+    Info (12023): Found entity 1: ROM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file registerbank.vhd
-    Info (12022): Found design unit 1: RegisterBank-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RegisterBank.vhd Line: 23
-    Info (12023): Found entity 1: RegisterBank File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RegisterBank.vhd Line: 6
+    Info (12022): Found design unit 1: RegisterBank-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd Line: 24
+    Info (12023): Found entity 1: RegisterBank File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
-    Info (12022): Found design unit 1: RAM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RAM.vhd Line: 16
-    Info (12023): Found entity 1: RAM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RAM.vhd Line: 6
+    Info (12022): Found design unit 1: RAM-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd Line: 17
+    Info (12023): Found entity 1: RAM File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file programcounter.vhd
-    Info (12022): Found design unit 1: ProgramCounter-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ProgramCounter.vhd Line: 16
-    Info (12023): Found entity 1: ProgramCounter File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ProgramCounter.vhd Line: 5
+    Info (12022): Found design unit 1: ProgramCounter-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd Line: 17
+    Info (12023): Found entity 1: ProgramCounter File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file muxula.vhd
-    Info (12022): Found design unit 1: MuxULA-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/MuxULA.vhd Line: 18
-    Info (12023): Found entity 1: MuxULA File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/MuxULA.vhd Line: 6
+    Info (12022): Found design unit 1: MuxULA-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd Line: 19
+    Info (12023): Found entity 1: MuxULA File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file decodificador.vhd
-    Info (12022): Found design unit 1: Decodificador-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/Decodificador.vhd Line: 15
-    Info (12023): Found entity 1: Decodificador File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/Decodificador.vhd Line: 4
+    Info (12022): Found design unit 1: Decodificador-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd Line: 16
+    Info (12023): Found entity 1: Decodificador File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cpu.vhd
-    Info (12022): Found design unit 1: CPU-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 17
-    Info (12023): Found entity 1: CPU File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 6
+    Info (12022): Found design unit 1: CPU-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 18
+    Info (12023): Found entity 1: CPU File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file controlunit.vhd
-    Info (12022): Found design unit 1: ControlUnit-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ControlUnit.vhd Line: 15
-    Info (12023): Found entity 1: ControlUnit File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/ControlUnit.vhd Line: 4
+    Info (12022): Found design unit 1: ControlUnit-Behavioral File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd Line: 16
+    Info (12023): Found entity 1: ControlUnit File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd Line: 5
 Info (12127): Elaborating entity "CPU" for the top level hierarchy
-Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:PC_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 38
-Info (12128): Elaborating entity "ROM" for hierarchy "ROM:ROM_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 50
-Info (12128): Elaborating entity "Decodificador" for hierarchy "Decodificador:Decodificador_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 58
-Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:CU_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 69
-Info (12128): Elaborating entity "RegisterBank" for hierarchy "RegisterBank:RegBank_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 82
-Info (12128): Elaborating entity "MuxULA" for hierarchy "MuxULA:MuxULA_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 99
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 111
-Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 128
+Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:PC_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 39
+Info (12128): Elaborating entity "ROM" for hierarchy "ROM:ROM_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 51
+Info (12128): Elaborating entity "Decodificador" for hierarchy "Decodificador:Decodificador_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 59
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:CU_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 70
+Info (12128): Elaborating entity "RegisterBank" for hierarchy "RegisterBank:RegBank_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 83
+Info (12128): Elaborating entity "MuxULA" for hierarchy "MuxULA:MuxULA_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 100
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 112
+Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM_inst" File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 129
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276007): RAM logic "RAM:RAM_inst|memory" is uninferred due to asynchronous read logic File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/RAM.vhd Line: 18
+    Info (276007): RAM logic "RAM:RAM_inst|memory" is uninferred due to asynchronous read logic File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd Line: 19
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ram_addr_out[5]" is stuck at GND File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 12
-    Warning (13410): Pin "ram_addr_out[6]" is stuck at GND File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 12
-    Warning (13410): Pin "ram_addr_out[7]" is stuck at GND File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/CPU.vhd Line: 12
+    Warning (13410): Pin "ram_addr_out[6]" is stuck at GND File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 13
+    Warning (13410): Pin "ram_addr_out[7]" is stuck at GND File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd Line: 13
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 88 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 656 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1023 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 64 output pins
-    Info (21061): Implemented 591 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4903 megabytes
-    Info: Processing ended: Tue Feb 18 23:50:38 2025
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:29
+    Info (21061): Implemented 958 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4885 megabytes
+    Info: Processing ended: Fri Feb 21 11:18:18 2025
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:25
 
 
