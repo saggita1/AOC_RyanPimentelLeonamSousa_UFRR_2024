@@ -14,43 +14,13 @@ architecture Behavioral of ROM is
     type rom_array is array (0 to 255) of STD_LOGIC_VECTOR(7 downto 0);
     signal rom : rom_array := (
         -- Programa Fibonacci:
-        -- 0) LI R0, 001   -> R0 = 1  
-        --    Formato I-type: Opcode "101", rd = "00", imm = "001"
-        --0  => "10100001",  
-        -- 1) LI R1, 001   -> R1 = 1 (primeiro termo de Fibonacci)
-        --    (Opcode "101", rd = "01", imm = "001")
-        --1  => "10101001",  
-        -- 2) LI R2, 000   -> R2 = 0 (termo anterior)
-        --    (Opcode "101", rd = "10", imm = "000")
-        --2  => "10110000",  
-        -- 3) LI R3, 101   -> R3 = 5 (contador)
-        --    (Opcode "101", rd = "11", imm = "101")
-        --3  => "10111101",  
-        -- Loop Início:
-        -- 4) SW R1, 010   -> Armazena R1 na memória em endereço 2
-        --    (Opcode "011", rd = "01", imm = "010")
-        --4  => "01101010",  
-        -- 5) ADD R1, R1, R2 -> R1 = R1 + R2 (novo termo de Fibonacci)
-        --    (Opcode "000", rd = "01", rs = "10", bit0 = 0)
-        --5  => "00001100",  
-        -- 6) LW R2, 010   -> R2 = Mem[2] (carrega o antigo R1 para atualizar o termo anterior)
-        --    (Opcode "010", rd = "10", imm = "010")
-        --6  => "01010010",  
-        -- 7) SUB R3, R3, R0 -> R3 = R3 - R0 (decrementa o contador; R0 contém 1)
-        --    (Opcode "001", rd = "11", rs = "00", bit0 = 0)
-        --7  => "00111000",  
-        -- 8) BEQ R3, 000  -> Se R3 == 0, PC = imediato (mas com o contador oscilando, essa condição nunca é satisfeita)
-        --    (Opcode "110", rd = "11", imm = "000")
-        --8  => "11011000",  
-        -- 9) ADDI R3, 1   -> R3 = R3 + 1 (restaura o contador para evitar que se torne 0)
-        --    (Opcode "100", rd = "11", imm = "001")
-        --9  => "10011001",  
-        -- 10) JUMP 00100 -> Salta para a instrução 4 (início do loop)
-        --    (Opcode "111", endereço = "00100" em binário = 4 decimal)
-        --10 => "11100100",  
-        -- 11) NOP         -> Instrução sem operação (pode ser ignorada)
-        --11 => "00000000",
-        -----------------------------------------------------------
+        -- 0  => "10101001",  -- LI: li R1, 001   ; R1 = 1 (primeiro termo)
+        -- 1  => "10110000",  -- LI: li R2, 000   ; R2 = 0 (termo anterior)
+        -- 2  => "01101010",  -- SW: sw R1, 010   ; Armazena R1 em memória, endereço = 2
+        -- 3  => "00001100",  -- ADD: add R1, R1, R2; R1 = R1 + R2 (novo termo)
+        -- 4  => "01010010",  -- LW: lw R2, 010   ; R2 = antigo R1 (recupera valor de Mem[2])
+        -- 5  => "11100010",  -- JUMP: j 00010    ; Salta para a instrução 2 (loop)
+        -- 6  => "00000000",  -- NOP            ; (opcional, fim do loop)
 
         -- Programa Principal Original (para testes gerais) permanece como comentário abaixo:
         0  => "10101101",  -- LI R1, 5    (opcode=101, rd=01, imm=101)
