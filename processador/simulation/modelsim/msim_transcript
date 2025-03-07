@@ -1,0 +1,229 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Processador8bits_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:56 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ULA
+# -- Compiling architecture Behavioral of ULA
+# End time: 04:43:56 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:56 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ROM
+# -- Compiling architecture Behavioral of ROM
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RegisterBank
+# -- Compiling architecture Behavioral of RegisterBank
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RAM
+# -- Compiling architecture Behavioral of RAM
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture Behavioral of ProgramCounter
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity MuxULA
+# -- Compiling architecture Behavioral of MuxULA
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decodificador
+# -- Compiling architecture Behavioral of Decodificador
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity CPU
+# -- Compiling architecture Behavioral of CPU
+# -- Loading package NUMERIC_STD
+# -- Loading entity ProgramCounter
+# -- Loading entity ROM
+# -- Loading entity Decodificador
+# -- Loading entity ControlUnit
+# -- Loading entity RegisterBank
+# -- Loading entity MuxULA
+# -- Loading entity ULA
+# -- Loading entity RAM
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:43:57 on Mar 07,2025
+# vcom -reportprogress 300 -93 -work work E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_cpu
+# -- Compiling architecture Behavioral of tb_cpu
+# -- Loading entity CPU
+# End time: 04:43:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_cpu
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_cpu 
+# Start time: 04:43:57 on Mar 07,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_cpu(behavioral)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(behavioral)
+# Loading work.programcounter(behavioral)
+# Loading work.rom(behavioral)
+# Loading work.decodificador(behavioral)
+# Loading work.controlunit(behavioral)
+# Loading work.registerbank(behavioral)
+# Loading work.muxula(behavioral)
+# Loading work.ula(behavioral)
+# Loading work.ram(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RAM_inst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RAM_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RegBank_inst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RegBank_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RegBank_inst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/RegBank_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/ROM_inst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/DUT/ROM_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_cpu/DUT
+# ** Failure: Fim da simulação
+#    Time: 500 ns  Iteration: 0  Process: /tb_cpu/stimulus_process File: E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd
+# Break in Process stimulus_process at E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd line 49
+# End time: 04:44:39 on Mar 07,2025, Elapsed time: 0:00:42
+# Errors: 1, Warnings: 24

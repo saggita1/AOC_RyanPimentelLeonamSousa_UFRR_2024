@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
 
--- DATE "02/21/2025 13:12:18"
+-- DATE "03/07/2025 04:42:36"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -39,14 +39,14 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY 	CPU IS
     PORT (
 	clk : IN std_logic;
-	pc_out : OUT std_logic_vector(7 DOWNTO 0);
-	instr_out : OUT std_logic_vector(7 DOWNTO 0);
-	alu_out : OUT std_logic_vector(7 DOWNTO 0);
-	ram_addr_out : OUT std_logic_vector(7 DOWNTO 0);
-	r0_out : OUT std_logic_vector(7 DOWNTO 0);
-	r1_out : OUT std_logic_vector(7 DOWNTO 0);
-	r2_out : OUT std_logic_vector(7 DOWNTO 0);
-	r3_out : OUT std_logic_vector(7 DOWNTO 0)
+	pc_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	instr_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	alu_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	ram_addr_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	r0_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	r1_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	r2_out : BUFFER std_logic_vector(7 DOWNTO 0);
+	r3_out : BUFFER std_logic_vector(7 DOWNTO 0)
 	);
 END CPU;
 

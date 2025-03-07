@@ -1,0 +1,461 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/modelsim
+Econtrolunit
+Z1 w1740150801
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+R0
+Z4 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd
+Z5 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd
+l0
+L5 1
+V8NVmW842A<o?3bGMbSQKO2
+!s100 NB:HPWOm<K>QINm>1Sb[82
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1741337037
+!i10b 1
+Z8 !s108 1741337037.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd|
+Z10 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ControlUnit.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 11 controlunit 0 22 8NVmW842A<o?3bGMbSQKO2
+!i122 7
+l17
+L16 32
+Va^XaN=U=[fc0>SkTkHVYe3
+!s100 ;<<`YbZS4KK9LzCBcZ4S;1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecpu
+R1
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+!i122 8
+R0
+Z16 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd
+Z17 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd
+l0
+L7 1
+Vn[NeBMCXSR[TbW4;XBg;k0
+!s100 <B0h`FYiFLP7FROAOLH:@0
+R6
+31
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd|
+Z19 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/CPU.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+Z20 DEx4 work 3 ram 0 22 D_h?if8LB_kazjiOo4:3_1
+Z21 DEx4 work 3 ula 0 22 e;5a6CHPzNGAz?RfdIhZ91
+Z22 DEx4 work 6 muxula 0 22 jD7f>M>PNVSM7DBAo01l>0
+Z23 DEx4 work 12 registerbank 0 22 APe>EZBKne]d?kITeXDWQ0
+R13
+Z24 DEx4 work 13 decodificador 0 22 ZBn5]P0iC@l0UcU2FQodj1
+Z25 DEx4 work 3 rom 0 22 Iz<TMgiOfISWf[>?V0bT<2
+Z26 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z27 DEx4 work 14 programcounter 0 22 EOEkjcm5QRa]3AAJ]N6LB2
+R14
+R15
+R2
+R3
+Z28 DEx4 work 3 cpu 0 22 n[NeBMCXSR[TbW4;XBg;k0
+!i122 8
+l37
+L18 122
+V_ndO8NGA`Hh9263fB><YN0
+!s100 lAQTm^0HMd8Eb38nDN:D^0
+R6
+31
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Edecodificador
+R1
+R2
+R3
+!i122 6
+R0
+Z29 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd
+Z30 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd
+l0
+L5 1
+VZBn5]P0iC@l0UcU2FQodj1
+!s100 9n]ZYAYi8`m5V?AKcHj@?3
+R6
+31
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd|
+Z32 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Decodificador.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+R24
+!i122 6
+l17
+L16 8
+VDX]840DOXhdDMgiW=HY[k2
+!s100 YKdWD?<SOWgg49o`hBY?h3
+R6
+31
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12
+Emuxula
+R1
+R14
+R15
+R2
+R3
+!i122 5
+R0
+Z33 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd
+Z34 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd
+l0
+L7 1
+VjD7f>M>PNVSM7DBAo01l>0
+!s100 7WHF8;I^^<;M<<[P=4VS30
+R6
+31
+R7
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd|
+Z36 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/MuxULA.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+R22
+!i122 5
+l21
+L19 37
+VMJ4K_io7;jo[5[YUAiEOj3
+!s100 SeoaTMRc7]OMca=>3oY`n0
+R6
+31
+R7
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12
+Eprogramcounter
+R1
+R26
+R2
+R3
+!i122 4
+R0
+Z37 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd
+Z38 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd
+l0
+L6 1
+VEOEkjcm5QRa]3AAJ]N6LB2
+!s100 d?h<kMB:W8[>F3iYBS`k:0
+R6
+31
+R7
+!i10b 1
+R8
+Z39 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd|
+Z40 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ProgramCounter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R26
+R2
+R3
+R27
+!i122 4
+l19
+L17 27
+Va`oAJ7H^P94US;D0FJnjT3
+!s100 [cK=1Bc9d45JXzKIn80oM1
+R6
+31
+R7
+!i10b 1
+R8
+R39
+R40
+!i113 1
+R11
+R12
+Eram
+R1
+R14
+R15
+R2
+R3
+!i122 3
+R0
+Z41 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd
+Z42 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd
+l0
+L7 1
+VD_h?if8LB_kazjiOo4:3_1
+!s100 aWa3aUDPQRJWf@8L_Tz??2
+R6
+31
+R7
+!i10b 1
+R8
+Z43 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd|
+Z44 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RAM.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+R20
+!i122 3
+l20
+L17 15
+V2h2PT4kiz_M>WM9U7H0e<2
+!s100 ZX@DI`:0Bl9`6KgRKN23<0
+R6
+31
+R7
+!i10b 1
+R8
+R43
+R44
+!i113 1
+R11
+R12
+Eregisterbank
+R1
+R14
+R15
+R2
+R3
+!i122 2
+R0
+Z45 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd
+Z46 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd
+l0
+L7 1
+VAPe>EZBKne]d?kITeXDWQ0
+!s100 JTb?O<IOagng^RHQ42jC73
+R6
+31
+R7
+!i10b 1
+R8
+Z47 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd|
+Z48 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/RegisterBank.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+R23
+!i122 2
+l32
+L24 26
+VNC1d:WCzg@_9LnFC4Wd;D3
+!s100 H20:T28QPTJ4CD_5_Sz[>3
+R6
+31
+R7
+!i10b 1
+R8
+R47
+R48
+!i113 1
+R11
+R12
+Erom
+Z49 w1740714617
+R14
+R15
+R2
+R3
+!i122 1
+R0
+Z50 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd
+Z51 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd
+l0
+L6 1
+VIz<TMgiOfISWf[>?V0bT<2
+!s100 <cmPCQ8l`k^3mRhGik5JF0
+R6
+31
+R7
+!i10b 1
+Z52 !s108 1741337036.000000
+Z53 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd|
+Z54 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ROM.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+R25
+!i122 1
+l40
+L13 30
+V3F>jb:Z?SBWiP]fVhn@n93
+!s100 ld6HWaCRF1>TNb5O^0HGG1
+R6
+31
+R7
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Etb_cpu
+Z55 w1741335287
+R14
+R15
+R2
+R3
+!i122 9
+R0
+Z56 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd
+Z57 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd
+l0
+L6 1
+VT:<@P:1^h=8KEf>X;@2QJ3
+!s100 SIAQz50R659D>c6ni<zCl0
+R6
+31
+R7
+!i10b 1
+R8
+Z58 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd|
+!s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R28
+R14
+R15
+R2
+R3
+DEx4 work 6 tb_cpu 0 22 T:<@P:1^h=8KEf>X;@2QJ3
+!i122 9
+l19
+L9 45
+VkYSJYhZ`hW<B``0gWUTL[2
+!s100 ;XMI`aQSO5:XR6k>i@0Ci0
+R6
+31
+R7
+!i10b 1
+R8
+R58
+Z59 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/tb_cpu.vhd|
+!i113 1
+R11
+R12
+Eula
+R1
+R14
+R15
+R2
+R3
+!i122 0
+R0
+Z60 8E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd
+Z61 FE:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd
+l0
+L7 1
+Ve;5a6CHPzNGAz?RfdIhZ91
+!s100 IbO9[]1G2^jIh28=nifR`2
+R6
+31
+Z62 !s110 1741337036
+!i10b 1
+R52
+Z63 !s90 -reportprogress|300|-93|-work|work|E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd|
+Z64 !s107 E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/ULA.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+R21
+!i122 0
+l16
+L15 26
+VDFG6<WNlWL7h;AiFakMBa0
+!s100 e8BFMD]0G`0<17X5KadBL2
+R6
+31
+R62
+!i10b 1
+R52
+R63
+R64
+!i113 1
+R11
+R12

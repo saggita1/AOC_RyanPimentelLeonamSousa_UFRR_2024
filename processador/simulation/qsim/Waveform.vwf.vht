@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "02/18/2025 23:54:13"
+-- Generated on "03/07/2025 04:42:35"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          CPU
 -- 
@@ -45,15 +45,15 @@ SIGNAL r3_out : STD_LOGIC_VECTOR(7 DOWNTO 0);
 SIGNAL ram_addr_out : STD_LOGIC_VECTOR(7 DOWNTO 0);
 COMPONENT CPU
 	PORT (
-	alu_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+	alu_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
 	clk : IN STD_LOGIC;
-	instr_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	pc_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	r0_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	r1_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	r2_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	r3_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
-	ram_addr_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	instr_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	pc_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	r0_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	r1_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	r2_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	r3_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
+	ram_addr_out : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
@@ -74,14 +74,12 @@ BEGIN
 -- clk
 t_prcs_clk: PROCESS
 BEGIN
-	FOR i IN 1 TO 12
-	LOOP
-		clk <= '0';
-		WAIT FOR 40000 ps;
-		clk <= '1';
-		WAIT FOR 40000 ps;
-	END LOOP;
+LOOP
 	clk <= '0';
-WAIT;
+	WAIT FOR 5000 ps;
+	clk <= '1';
+	WAIT FOR 5000 ps;
+	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
+END LOOP;
 END PROCESS t_prcs_clk;
 END CPU_arch;

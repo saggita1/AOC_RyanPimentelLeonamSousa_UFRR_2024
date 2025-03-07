@@ -1,5 +1,5 @@
 Flow report for Processador8bits
-Fri Feb 21 13:12:19 2025
+Fri Mar 07 04:43:47 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -38,29 +38,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Feb 21 13:12:19 2025       ;
-; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
-; Revision Name                   ; Processador8bits                            ;
-; Top-level Entity Name           ; CPU                                         ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CGXFC7C7F23C8                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 552                                         ;
-; Total pins                      ; 65                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------+
+; Flow Summary                                                              ;
++-----------------------------+---------------------------------------------+
+; Flow Status                 ; Successful - Fri Mar 07 04:43:47 2025       ;
+; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name               ; Processador8bits                            ;
+; Top-level Entity Name       ; CPU                                         ;
+; Family                      ; Cyclone V                                   ;
+; Device                      ; 5CGXFC7C7F23C8                              ;
+; Timing Models               ; Final                                       ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,75 +63,62 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/21/2025 13:08:17 ;
+; Start date & time ; 03/07/2025 04:43:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Processador8bits    ;
 +-------------------+---------------------+
 
 
++---------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                ;
++--------------------------------------+----------------------------------------+------------------+-------------+----------------+
+; Assignment Name                      ; Value                                  ; Default Value    ; Entity Name ; Section Id     ;
++--------------------------------------+----------------------------------------+------------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 185410936471705.174133701805964        ; --               ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --               ; --          ; tb_cpu         ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_cpu                                 ; --               ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --               ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>           ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --               ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; tb_cpu.vhd                             ; --               ; --          ; tb_cpu         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_cpu                                 ; --               ; --          ; tb_cpu         ;
+; EDA_TEST_BENCH_NAME                  ; tb_cpu                                 ; --               ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --               ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --               ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --               ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; CPU         ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; CPU         ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --               ; CPU         ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --               ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --               ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --               ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; CPU                                    ; Processador8bits ; --          ; --             ;
++--------------------------------------+----------------------------------------+------------------+-------------+----------------+
+
+
 +----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                           ;
-+-------------------------------------+----------------------------------------+------------------+-------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value    ; Entity Name ; Section Id ;
-+-------------------------------------+----------------------------------------+------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 185410936471705.174015769600584        ; --               ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --               ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --               ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --               ; CPU         ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --               ; CPU         ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --               ; CPU         ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --               ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; CPU                                    ; Processador8bits ; --          ; --         ;
-+-------------------------------------+----------------------------------------+------------------+-------------+------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 4837 MB             ; 00:00:22                           ;
+; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:22                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4893 MB             ; 00:00:25                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4720 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4722 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:33                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-
-
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-1M2KIMO  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Processador8bits -c Processador8bits
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform1.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform1.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador8bits -c Processador8bits --vector_source=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/Waveform2.vwf --testbench_file=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/Waveform2.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=E:/codigos/AOC_RyanPimentelLeonamSousa_UFRR_2024/processador/simulation/qsim/ Processador8bits -c Processador8bits
+quartus_map --read_settings_files=on --write_settings_files=off Processador8bits -c Processador8bits --analysis_and_elaboration
 
 
 
